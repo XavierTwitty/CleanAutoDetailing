@@ -18,12 +18,23 @@ body {
   color: #4f4f4f;
 }
 
-.logo {
+/* .logo {
   width: 20%;
   height: 20%;
-}
+} */
 @media (max-width: 360px) {
   body {
     border: 2px solid blue;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100%;
+    height: 20%;
   }
 }

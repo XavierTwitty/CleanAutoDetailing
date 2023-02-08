@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
-import logo from "../photos/Clean-Auto-logos.jpeg";
+import logo from "../photos/Clean Auto-logos_transparent.png";
 
 const Header = () => {
   return (
