@@ -37,4 +37,28 @@ body {
     width: 100%;
     height: 20%;
   }
+
+  .interior-exterior-pic {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .pos-absolute {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+
+  .exterior-pic {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .pos-abs {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+  }
 }
