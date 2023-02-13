@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
 }
 
 /* General Styles*/
@@ -18,10 +18,18 @@ body {
   color: #4f4f4f;
 }
 
-/* .logo {
-  width: 20%;
-  height: 20%;
-} */
+.navigation {
+  background-color: #f1a384;
+}
+
+.footer-container {
+  background-color: #f1a384;
+}
+
+.services-container {
+  background-color: #edd474;
+}
+
 @media (max-width: 360px) {
   body {
     border: 2px solid blue;
@@ -60,5 +68,29 @@ body {
     position: absolute;
     top: 50%;
     left: 38%;
+  }
+
+  .navigation {
+    width: 100%;
+  }
+
+  .gallery-container {
+    background-color: #7effe3;
+  }
+
+  .gallery {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 50%;
+    margin-top: 3%;
   }
 }

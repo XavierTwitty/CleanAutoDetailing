@@ -2,9 +2,9 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="gallery-container">
       <h2>Gallery</h2>
-      <div className="gallery-container">
+      <div className="gallery">
         <img src={require("../photos/IMG_2151.jpg")}></img>
         <img src={require("../photos/IMG_2152 2.jpg")}></img>
         <img src={require("../photos/IMG_2170.jpg")}></img>
