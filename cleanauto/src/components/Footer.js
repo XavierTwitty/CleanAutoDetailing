@@ -7,10 +7,12 @@ const Footer = () => {
     <div className="footer-container">
       <h4> Contact us :</h4>
       <p>cleanautodetailing704@gmail.com</p>
-      <h5>Follow us on IG!</h5>
-      <Link to="https://instagram.com/cleanautodetaling?igshid=YmMyMTA2M2Y=">
-        <BsInstagram color="white" />
-      </Link>
+      <div className="social-media">
+        <h5>Follow us on IG!</h5>
+        <Link to="https://instagram.com/cleanautodetaling?igshid=YmMyMTA2M2Y=">
+          <BsInstagram color="white" size="3rem" />
+        </Link>
+      </div>
     </div>
   );
 };
