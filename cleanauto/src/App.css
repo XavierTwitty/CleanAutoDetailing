@@ -18,6 +18,10 @@ body {
   color: #4f4f4f;
 }
 
+.body-container h2 {
+  text-align: center;
+}
+
 .navigation {
   background-color: #f1a384;
 }
@@ -28,6 +32,11 @@ body {
 
 .services-container {
   background-color: #edd474;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 360px) {
@@ -52,6 +61,16 @@ body {
     color: white;
   }
 
+  .interior-exterior-pic img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .interior-exterior-pic img:hover {
+    width: 85%;
+    height: 85%;
+  }
+
   .pos-absolute {
     position: absolute;
     top: 50%;
@@ -62,6 +81,16 @@ body {
     position: relative;
     text-align: center;
     color: white;
+  }
+
+  .exterior-pic img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .exterior-pic img:hover {
+    width: 85%;
+    height: 85%;
   }
 
   .pos-abs {
@@ -123,7 +152,6 @@ body {
   }
 
   .social-media {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;

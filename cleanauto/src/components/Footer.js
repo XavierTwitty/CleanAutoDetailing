@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="social-media">
         <h5>Follow us on IG!</h5>
         <Link to="https://instagram.com/cleanautodetaling?igshid=YmMyMTA2M2Y=">
-          <BsInstagram color="white" size="3rem" />
+          <BsInstagram color="white" size="4rem" />
         </Link>
       </div>
     </div>
