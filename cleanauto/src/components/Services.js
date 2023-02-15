@@ -19,7 +19,10 @@ const Services = () => {
             <li>Door Jams</li>
             <li>Starting at 100$</li>
           </ul>
-          <Link to="https://calendly.com/cleanautodetailing704/interior-exterior-detail">
+          <Link
+            className="book"
+            to="https://calendly.com/cleanautodetailing704/interior-exterior-detail"
+          >
             Book Now
           </Link>
         </div>
@@ -33,7 +36,10 @@ const Services = () => {
             <li>Door Jams</li>
             <li>Starting at 70$</li>
           </ul>
-          <Link to="https://calendly.com/cleanautodetailing704/interior-detail">
+          <Link
+            className="book"
+            to="https://calendly.com/cleanautodetailing704/interior-detail"
+          >
             Book Now
           </Link>
         </div>
@@ -46,7 +52,10 @@ const Services = () => {
             <li>Windows</li>
             <li>Starting at 30$</li>
           </ul>
-          <Link to="https://calendly.com/cleanautodetailing704/exterior-detail">
+          <Link
+            className="book"
+            to="https://calendly.com/cleanautodetailing704/exterior-detail"
+          >
             Book Now
           </Link>
         </div>

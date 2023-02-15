@@ -1,5 +1,8 @@
 import React from "react";
 
+//ideas:
+// redux , dropdown , animations
+
 const Home = () => {
   return (
     <div className="body-container">
@@ -7,7 +10,7 @@ const Home = () => {
       <div className="interior-exterior-pic">
         <a href="/services">
           <img
-            src={require("../photos/arteum-ro-xNlXqktxclQ-unsplash.jpg")}
+            src={require("../photos/IMG_2387.jpg")}
             alt="interior"
             className="interior-exterior-img"
           />
@@ -17,7 +20,7 @@ const Home = () => {
       <div className="exterior-pic">
         <a href="/services">
           <img
-            src={require("../photos/grahame-jenkins-p7tai9P7H-s-unsplash.jpg")}
+            src={require("../photos/IMG_2246.jpg")}
             alt="exterior"
             className="exterior-img"
           />
