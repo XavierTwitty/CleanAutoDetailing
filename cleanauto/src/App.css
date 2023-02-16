@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 2px solid gray;
 }
 
 /* General Styles*/
@@ -117,7 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid red;
+
   background-color: #edd474;
 }
 
@@ -126,7 +125,6 @@ body {
 }
 
 .services {
-  border: 2px solid blue;
   width: 50%;
   margin: 4%;
 }
@@ -176,19 +174,11 @@ body {
 }
 
 @media (max-width: 950px) {
-  body {
-    border: 5px solid orange;
-  }
-
   .links {
     width: 22%;
   }
   .links:hover {
     width: 24%;
-  }
-
-  .body-container {
-    border: 2px solid red;
   }
 
   .interior-exterior-pic img {
@@ -219,19 +209,11 @@ body {
 }
 
 @media (max-width: 800px) {
-  body {
-    border: 5px solid violet;
-  }
-
   .links {
     width: 22%;
   }
   .links:hover {
     width: 24%;
-  }
-
-  .body-container {
-    border: 2px solid red;
   }
 
   .interior-exterior-pic img {
@@ -262,19 +244,11 @@ body {
 }
 
 @media (max-width: 700px) {
-  body {
-    border: 5px solid darkgreen;
-  }
-
   .links {
     width: 22%;
   }
   .links:hover {
     width: 24%;
-  }
-
-  .body-container {
-    border: 2px solid red;
   }
 
   .interior-exterior-pic img {
@@ -310,19 +284,11 @@ body {
 }
 
 @media (max-width: 560px) {
-  body {
-    border: 5px solid teal;
-  }
-
   .links {
     width: 22%;
   }
   .links:hover {
     width: 24%;
-  }
-
-  .body-container {
-    border: 2px solid red;
   }
 
   .interior-exterior-pic img {
@@ -357,10 +323,6 @@ body {
 }
 
 @media (max-width: 460px) {
-  body {
-    border: 5px solid purple;
-  }
-
   .links {
     width: 22%;
   }
@@ -400,10 +362,6 @@ body {
 }
 
 @media (max-width: 360px) {
-  body {
-    border: 2px solid blue;
-  }
-
   .header-container {
     display: flex;
     flex-direction: column;
@@ -561,19 +519,11 @@ body {
 }
 
 @media (max-width: 310px) {
-  body {
-    border: 5px solid cornflowerblue;
-  }
-
   .links {
     width: 26%;
   }
   .links:hover {
     width: 27%;
-  }
-
-  .body-container {
-    border: 2px solid red;
   }
 
   .interior-exterior-pic img {
@@ -593,12 +543,10 @@ body {
   }
 
   .pos-absolute {
-    top: 50%;
-    left: 25%;
+    left: 23%;
   }
 
   .pos-abs {
-    top: 50%;
     left: 40%;
   }
 
